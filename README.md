@@ -1,16 +1,51 @@
-# application_gestion_des_reclamations_pfe
+# 📱 Application de gestion des réclamations des étudiants
 
-A new Flutter project.
+## 📌 Description
+Cette application mobile permet aux étudiants d’envoyer des réclamations académiques et aux enseignants de les consulter, traiter et répondre en temps réel.  
+Elle vise à améliorer la communication entre les étudiants, les enseignants et l’administration universitaire grâce à une solution numérique simple et efficace.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎯 Fonctionnalités principales
 
-A few resources to get you started if this is your first Flutter project:
+### 👨‍🎓 Étudiant
+- Authentification sécurisée
+- Envoi de réclamations (notes, absences, examens, etc.)
+- Suivi de l’état des réclamations (en cours, traitée, rejetée)
+- Consultation des réponses des enseignants
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 👨‍🏫 Enseignant
+- Authentification sécurisée
+- Consultation des réclamations reçues
+- Réponse et traitement des réclamations
+- Mise à jour du statut des réclamations
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🛠️ Administrateur
+- Gestion des comptes utilisateurs
+- Supervision des réclamations
+- Activation et désactivation des comptes
+
+---
+
+## 🔐 Sécurité
+- Authentification via Firebase Authentication
+- Gestion des rôles (Étudiant / Enseignant / Administrateur)
+- Accès contrôlé selon le rôle de l’utilisateur
+
+---
+
+## ⚙️ Technologies utilisées
+- **Flutter** – Développement mobile multiplateforme
+- **Dart** – Langage de programmation
+- **Firebase Authentication** – Gestion des utilisateurs
+- **Cloud Firestore** – Base de données en temps réel
+
+---
+
+## 🚀 Objectifs du projet
+- Digitaliser le processus de gestion des réclamations
+- Réduire les délais de traitement
+- Améliorer la transparence et la communication académique
+- Offrir une interface intuitive et moderne
+
+---
